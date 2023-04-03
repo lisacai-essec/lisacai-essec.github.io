@@ -1,0 +1,80 @@
+@media only screen and (max-width: 600px) {
+  .section {
+    flex-direction: column;
+    padding: 50px 30px;
+  }
+  /* Landing */
+  .landing-section {
+    padding: 0 0px 0px 150px;
+  }
+  .landing-section .section-sidephoto {
+    display: none;
+  }
+  /* Lang */
+  .language-content .section-content {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .section .title {
+    font-size: 1.2em;
+  }
+  /* Landing */
+  .landing-section .section-content {
+    width: 100%;
+    text-align: left;
+    padding-right: 100px;
+  }
+  .landing-section .section-sidephoto {
+    width: 300px;
+    height: 300px;
+  }
+  .landing-section .section-content h1 {
+    font-size: 2em;
+  }
+  .landing-section ul li {
+    font-size: 1.2em;
+  }
+  .landing-section .section-content p {
+    display: none;
+  }
+  /* Lang */
+  .language-content .section-content {
+    padding: 0;
+  }
+  /* Educ */
+  .education-section .section-sidephoto {
+    width: 150px;
+    height: 150px;
+  }
+  .education-section .section-text {
+    margin: auto;
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  /* Landing */
+  .landing-section .section-content p {
+    display: none;
+  }
+  .landing-section ul li {
+    font-size: 1.4em;
+  }
+  .section .title {
+    font-size: 1.5em;
+  }
+  .education-section .section-text {
+    margin: auto;
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  
+}
+
+@media only screen and (min-width: 768px) {
+
+}

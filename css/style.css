@@ -52,7 +52,7 @@ html, body {
 }
 
 .landing-section .section-content h1 {
-    font-size: 60px;
+    font-size: 3em;
     font-weight: 700;
     margin-bottom: 20px;
     color: #292929;
@@ -71,6 +71,21 @@ html, body {
     font-weight: 300;
     margin-bottom: 20px;
     color: #292929;
+}
+
+.landing-section ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.landing-section ul li {
+    display: inline;
+    font-size: 2em;
+}
+
+.landing-section ul li i {
+    color: #7F2CCB;
 }
 
 
@@ -102,9 +117,40 @@ html, body {
     flex-direction: column;
 }
 
+.education-section .section-content {
+    display: flex;
+    flex-direction: row;
+}
+
 .education-section .title h2 {
     text-shadow: 5px 5px 0 #7F2CCB;
 }
+
+.education-section .section-text {
+    margin: auto;
+    font-size: 1.4em;
+}
+.education-section .section-text a {
+    background-color: black;
+    color: white;
+    padding: 5px 7px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.education-section .section-sidephoto {
+    margin: auto;
+    display: inline-block;
+    width: 280px;
+    height: 280px;
+}
+
+.education-section .section-sidephoto img {
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+}
+
 
 /* Section 2: Language */
 
@@ -114,7 +160,7 @@ html, body {
 }
 
 .language-content .section-content {
-    padding: 20px;
+    padding: 0 150px;
 }
 
 .language-item {
@@ -139,32 +185,4 @@ html, body {
 
 .passion-content .title h2 {
     text-shadow: 5px 5px 0 #7F2CCB;
-}
-
-/* Footer */
-
-footer {
-    padding: 20px 0;
-    text-align: center;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-    transition-duration: 250ms;
-}
-
-footer a:hover {
-    color: #7F2CCB;
-}
-
-footer ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-footer ul li {
-    display: inline-block;
-    margin: 0 10px;
 }
