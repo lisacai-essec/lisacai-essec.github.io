@@ -27,7 +27,7 @@ html, body {
     display: inline-block;
     position: relative;
     padding: 5px 10px;
-    background-color: #292929;
+    text-shadow: 5px 5px 0 #7F2CCB;
     color: white;
 }
 
@@ -41,7 +41,8 @@ html, body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 0 200px;
+    padding: 0 200px 50px 200px;
+    z-index: 5;
 }
 
 .landing-section .section-content {
@@ -61,7 +62,8 @@ html, body {
     display: inline-block;
     color: white;
     background-color: #7F2CCB;
-    padding: 0 10px;
+    padding: 5px 15px;
+    border-radius: 25px;
 }
 
 .landing-section .section-content p {
@@ -94,9 +96,14 @@ html, body {
 /* Section 1: Education */
 
 .education-section {
-    background: #fc61e2;
+    color: white;
+    background: #b66eff;
     min-height: 200px;
     flex-direction: column;
+}
+
+.education-section .title h2 {
+    text-shadow: 5px 5px 0 #7F2CCB;
 }
 
 /* Section 2: Language */
@@ -106,20 +113,37 @@ html, body {
     flex-direction: column;
 }
 
+.language-content .section-content {
+    padding: 20px;
+}
+
+.language-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fi {
+    line-height: 2.5em;
+    width: 3em;
+    margin: 0 10px 5px 0;
+}
+
 /* Section 3: Passion */
 
 .passion-content {
-    background: #fc61e2;
+    background: #b66eff;
     min-height: 200px;
     flex-direction: column;
+}
+
+.passion-content .title h2 {
+    text-shadow: 5px 5px 0 #7F2CCB;
 }
 
 /* Footer */
 
 footer {
-    border-top: 1px solid #000000;
-    background: #fc61e2;
-    color: white;
     padding: 20px 0;
     text-align: center;
 }
