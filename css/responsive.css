@@ -53,6 +53,11 @@
     margin: auto;
     font-size: 0.8em;
   }
+  /* Passion */
+  .passion-content .section-content .image {
+    height: 350px;
+    width: auto;
+  }
 }
 
 @media only screen and (max-width: 1100px) {
